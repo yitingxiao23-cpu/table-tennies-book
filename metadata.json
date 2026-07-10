@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Table Tennis Booking",
+  "description": "A streamlined table tennis coaching and booking app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

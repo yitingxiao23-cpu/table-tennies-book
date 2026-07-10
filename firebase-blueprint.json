@@ -1,0 +1,53 @@
+{
+  "project_id": "gen-lang-client-0585783843",
+  "database_id": "ai-studio-tabletennisbooki-1982ac50-0227-4246-954d-84a1447300c1",
+  "collections": [
+    {
+      "name": "users",
+      "fields": {
+        "uid": "string",
+        "email": "string",
+        "role": "string (student | coach)",
+        "name": "string",
+        "createdAt": "timestamp"
+      }
+    },
+    {
+      "name": "profiles",
+      "fields": {
+        "coachId": "string",
+        "name": "string",
+        "slogan": "string",
+        "philosophy": "string",
+        "experience": "string",
+        "imageUrl": "string"
+      }
+    },
+    {
+      "name": "schedules",
+      "fields": {
+        "coachId": "string",
+        "title": "string",
+        "date": "string",
+        "startTime": "string",
+        "endTime": "string",
+        "price": "number",
+        "totalSlots": "number",
+        "bookedSlots": "number",
+        "createdAt": "timestamp"
+      }
+    },
+    {
+      "name": "bookings",
+      "fields": {
+        "sessionId": "string",
+        "studentId": "string",
+        "studentName": "string",
+        "lineId": "string",
+        "status": "string",
+        "paymentScreenshotUrl": "string",
+        "createdAt": "timestamp"
+      }
+    }
+  ]
+}

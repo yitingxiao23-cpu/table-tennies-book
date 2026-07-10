@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    font-family: 'BiauKai', 'DFKai-SB', 'Kaiti TC', serif;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
